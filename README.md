@@ -3,6 +3,10 @@ A pipeline to identify causal mutations in EMS mutant
 
 http://htmlpreview.github.io/?https://raw.githubusercontent.com/xie186/MutFinder/master/MutFinder.html
 
+Figure:
+
+https://drive.google.com/file/d/0ByNKKhs9TvaWcFFTUGhfdGc2VFE/view?usp=sharing
+
 
 # Method
 
