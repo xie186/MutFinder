@@ -5,7 +5,7 @@ class <- c("Repress", "Activate")
 library(hash)
 h_col <- hash( keys=class, values=color )
 draw_var_dis_geno<-function(var,
-   			    ideo="/scratch/conte/x/xie186/data/ara/info_geno_len/TAIR10_chr_all.ideogram",
+   			    ideo="TAIR10_chr_all.ideogram",
                             output
  		            ){
     pdf(output, width =6, height =4);
