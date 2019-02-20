@@ -1,0 +1,9 @@
+raw_data_dir: ../../data/raw_fq/
+bwa:
+    reference: ../../../stress_adaptation_plant_10g/data/ara/TAIR10_chr_all.bwaidx 
+    cpu_num: 18
+GATK:
+    reference: ../../../stress_adaptation_plant_10g/data/ara/TAIR10_chr_all.fasta
+    WT: WPCraptor 
+snpEff:
+    ideogram: TAIR10_chr_all.ideogram 

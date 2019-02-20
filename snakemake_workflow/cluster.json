@@ -1,0 +1,11 @@
+##https://snakemake.readthedocs.io/en/stable/snakefiles/configuration.html#cluster-configuration
+{
+    "__default__": {
+        "queue": "standby",
+        "time": "4:00:00",
+        "n": 20,
+        "name": "test",
+        "output": "logs/{rule}.{wildcards.sample}.out",
+        "error": "logs/{rule}.{wildcards.sample}.err"
+    }
+}
