@@ -1,3 +1,4 @@
+# Snakemake workflow
 
 
 ## Check the workflow
@@ -18,3 +19,4 @@ snakemake -s mut_finder.sm.py --configfile config.yaml
 ```
 snakemake -s mut_finder.sm.py --configfile config.yaml --cluster-config cluster.json -j 100 --cluster "qsub -m e -q {cluster.queue} -l walltime={cluster.time} -l nodes=1:ppn={cluster.n} -e {cluster.error} -N {cluster.name} -o {cluster.output}"
 ```
+
