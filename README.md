@@ -7,6 +7,7 @@ Figure:
 
 https://drive.google.com/file/d/0ByNKKhs9TvaWcFFTUGhfdGc2VFE/view?usp=sharing
 
+> Recently, I organized the pipeline into a snakemake workflow. Please refer to the link here: https://github.com/xie186/MutFinder/tree/master/snakemake_workflow
 
 # Method
 
