@@ -50,7 +50,7 @@ rule picard_rmdup:
         log = BAM_RMDUP + "{sample}.log",
     shell:
         '''
-java -Xmx10g -jar scripts/picard.jar MarkDuplicates I={input.bam} O={output.bam} M={output.matrics} AS=true 2> {output.log},
+java -Xmx10g -jar scripts/picard.jar MarkDuplicates I={input.bam} O={output.bam} M={output.matrics} AS=true 2> {output.log}
 samtools index {output.bam}
 '''
 
