@@ -15,6 +15,8 @@ Re-sequencing reads from wild type and mutant were aligned to TAIR10 reference g
 
 With SNPs meeting the requirements above, a five-snp window was used to calculate the ratio of mutation. Based on the ratios of the windows, a line plot was generated along the chromosome. The peak position was marked as red star. snpEff (reference) was then used to annotate the effect of the SNPs. SNPs with large effects around the peak position was extracted to identify the causal mutation.
 
+![image](https://user-images.githubusercontent.com/20909751/129656288-3beeef69-f40c-4616-9621-74bc7e2019f3.png)
+
 
 References:
 
