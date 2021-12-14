@@ -1,4 +1,5 @@
 # ICME
+
 A pipeline to identify causal mutations in EMS mutant
 
 http://htmlpreview.github.io/?https://raw.githubusercontent.com/xie186/MutFinder/master/MutFinder.html
@@ -9,7 +10,7 @@ https://drive.google.com/file/d/0ByNKKhs9TvaWcFFTUGhfdGc2VFE/view?usp=sharing
 
 > __Recently, I organized the pipeline into a snakemake workflow. Please refer to the link here:__ https://github.com/xie186/MutFinder/tree/master/snakemake_workflow
 
-# Method
+## Method
 
 Re-sequencing reads from wild type and mutant were aligned to TAIR10 reference genome using bwa. SAM files generated were then converted to BAM files. PCR duplications were removed using MarkDuplicates.jar in Picard (http://broadinstitute.github.io/picard/). HaplotypeCaller in GATK was then used to identify the SNPs in both wild type and mutant samples. We chose the SNPs meet the following requirements: 1) showing homozygous reference allele in wild type; 2) showing C->T or G->A mutation between wild type and mutant samples; 3) showing ratios of the reads with alternative alleles/read depth > 0.3.
 
@@ -18,7 +19,7 @@ With SNPs meeting the requirements above, a five-snp window was used to calculat
 ![image](https://user-images.githubusercontent.com/20909751/129656288-3beeef69-f40c-4616-9621-74bc7e2019f3.png)
 
 
-References:
+## References:
 
 bwa reference
 
