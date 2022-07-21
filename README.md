@@ -4,9 +4,6 @@ A pipeline to identify causal mutations in EMS mutant
 
 http://htmlpreview.github.io/?https://raw.githubusercontent.com/xie186/MutFinder/master/MutFinder.html
 
-Figure:
-
-https://drive.google.com/file/d/0ByNKKhs9TvaWcFFTUGhfdGc2VFE/view?usp=sharing
 
 > __Recently, I organized the pipeline into a snakemake workflow. Please refer to the link here:__ https://github.com/xie186/MutFinder/tree/master/snakemake_workflow
 
