@@ -1,6 +1,6 @@
 # ICME
 
-A pipeline to identify causal mutations in EMS mutant
+A pipeline to identify causal mutations in MutFinderEMS mutant
 
 http://htmlpreview.github.io/?https://raw.githubusercontent.com/xie186/MutFinder/master/MutFinder.html
 
